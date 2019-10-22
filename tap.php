@@ -1,9 +1,9 @@
 <?php
     $curl_resource = curl_init();
     $opt = array(
-                CURLOPT_URL => 'http://localhost:8080' ,
+                CURLOPT_URL => 'https://min-flow.herokuapp.com' ,
                 CURLOPT_POST => true,
-                CURLOPT_POSTFIELDS => [ 'I1' => 'fuck', 'I2' => 'off']
+                CURLOPT_POSTFIELDS => [ 'I1' => 'glib', 'I2' => 'off']
                 );
 
     curl_setopt_array($curl_resource, $opt);
